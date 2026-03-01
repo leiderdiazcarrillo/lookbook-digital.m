@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos del documento, como codificación y viewport para diseño responsivo -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML5 & CSS3 | ADSO 2026</title>
+    <!-- Enlace a fuentes externas y hoja de estilos -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero">
+    <div class="hero-text">
+        <!-- Contenedor del texto principal del encabezado -->
+        <span class="hero-badge">Aprendiendo a programar paginas Web</span>
+        <h1>HTML5<span>& CSS3</span></h1>
+        <p class="hero-desc">Principios para construir páginas web modernas utilizando estructura semántica, diseño visual coherente y buenas prácticas de desarrollo.</p>
+        <div class="hero-stats">
+            <!-- Estadísticas principales del contenido del sitio -->
+            <div class="stat"><span class="stat-num">06</span><span class="stat-label">Temas HTML</span></div>
+            <div class="stat"><span class="stat-num">05</span><span class="stat-label">Conceptos CSS</span></div>
+            <div class="stat"><span class="stat-num">04</span><span class="stat-label">Recursos</span></div>
+        </div>
+    </div>
+    <div class="hero-visual">
+        <!-- Imagen representativa del encabezado -->
+        <img src="https://www.ubelogic.com/wp-content/uploads/2013/01/html+css.jpg" alt="Código web profesional">
+    </div>
+    <div class="hero-scroll"><span class="scroll-line"></span>Explorar contenido</div>
+</header>
+
+<div class="intro-strip">
+    <!-- Franja introductoria con temas destacados -->
+    <p>Aprende a construir páginas web entendiendo estos conceptos</p>
+    <div class="topics">
+        <span class="topic-tag">Semántica</span>
+        <span class="topic-tag">Grid Layout</span>
+        <span class="topic-tag">Responsivo</span>
+        <span class="topic-tag">Multimedia</span>
+        <span class="topic-tag">Animaciones</span>
+    </div>
+</div>
+
+<!-- HTML SECTION -->
+<section class="page-section html-section">
+    <div class="section-header">
+        <!-- Encabezado de la sección HTML -->
+        <div><p class="section-label">Parte 01</p><h2>HTML: Estructura<br><em>y Contenido</em></h2></div>
+        <span class="section-number">01</span>
+    </div>
+    <div class="concepts-grid">
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Títulos en HTML -->
+            <div class="concept-img-wrap"><img src="https://leonorcanuelo.com/wp-content/uploads/2015/12/1-1.png" alt="Títulos HTML"></div>
+            <div class="concept-body"><span class="concept-number">01</span><span class="concept-tag">Texto</span><h3>Títulos</h3><p>Los títulos se definen con las etiquetas <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>. El <code>&lt;h1&gt;</code> es el más importante para el SEO y la jerarquía del contenido.</p></div>
+        </article>
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Párrafos en HTML -->
+            <div class="concept-img-wrap"><img src="https://i.ytimg.com/vi/u5PQfszoygs/maxresdefault.jpg" alt="Párrafos HTML"></div>
+            <div class="concept-body"><span class="concept-number">02</span><span class="concept-tag">Texto</span><h3>Párrafos</h3><p>Los párrafos se definen con la etiqueta <code>&lt;p&gt;</code>, que agrupa bloques de texto en la página, creando espaciado visual entre secciones de contenido.</p></div>
+        </article>
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Imágenes en HTML -->
+            <div class="concept-img-wrap"><img src="https://luiselectronic.com/wp-content/uploads/2023/03/desarrollo-web.004.webp" alt="Imágenes HTML"></div>
+            <div class="concept-body"><span class="concept-number">03</span><span class="concept-tag">Multimedia</span><h3>Imágenes</h3><p>Las imágenes se insertan con <code>&lt;img src="" alt=""&gt;</code>. El atributo <code>alt</code> es esencial para la accesibilidad y el posicionamiento.</p></div>
+        </article>
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Enlaces en HTML -->
+            <div class="concept-img-wrap"><img src="https://cibertareas.info/wp-content/uploads/2014/05/manual-de-html-codigo-para-insertar-un-link-400x301.png" alt="Enlaces HTML"></div>
+            <div class="concept-body"><span class="concept-number">04</span><span class="concept-tag">Navegación</span><h3>Enlaces</h3><p>Los enlaces se crean con <code>&lt;a href=""&gt;</code>. Conectan páginas entre sí, haciendo posible la navegación en la web moderna.</p></div>
+        </article>
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Tablas en HTML -->
+            <div class="concept-img-wrap"><img src="https://cibertareas.info/wp-content/uploads/2014/04/codigo-para-insertar-una-tabla-en-html-manual.png" alt="Tablas HTML"></div>
+            <div class="concept-body"><span class="concept-number">05</span><span class="concept-tag">Datos</span><h3>Tablas</h3><p>Las tablas se definen con <code>&lt;table&gt;</code>, organizando datos en filas <code>&lt;tr&gt;</code> y columnas <code>&lt;td&gt;</code> de forma estructurada.</p></div>
+        </article>
+        <article class="concept-card">
+            <!-- Tarjeta de concepto: Formularios en HTML -->
+            <div class="concept-img-wrap"><img src="https://www.hubspot.com/hubfs/media/estructurabasicaformulariohtml.png" alt="Formularios HTML"></div>
+            <div class="concept-body"><span class="concept-number">06</span><span class="concept-tag">Interacción</span><h3>Formularios</h3><p>Los formularios con <code>&lt;form&gt;</code> e <code>&lt;input&gt;</code> permiten capturar datos del usuario para registros, búsquedas y contacto.</p></div>
+        </article>
+    </div>
+</section>
+
+<!-- CSS SECTION -->
+<section class="page-section css-section">
+    <div class="section-header">
+        <!-- Encabezado de la sección CSS -->
+        <div><p class="section-label">Parte 02</p><h2>CSS: Diseño<br><em>y Estilo</em></h2></div>
+        <span class="section-number">02</span>
+    </div>
+    <div class="css-grid">
+        <div class="css-card"><div class="css-card-img"><img src="https://www.wikihow.com/images/thumb/1/1f/2609629-9-2.jpg/v4-728px-2609629-9-2.jpg.webp" alt="Colores CSS"></div><div class="css-card-body"><div class="css-icon">C</div><h3>Colores</h3><p>Controla el aspecto visual con <code>color</code> y <code>background-color</code> usando valores HEX, RGB o HSL.</p></div></div>
+        <div class="css-card"><div class="css-card-img"><img src="https://1.bp.blogspot.com/-14T62bo-2ZI/T107N_DyXJI/AAAAAAAAAW4/v-nRTFfbG80/s1600/CSS-resultante.jpg" alt="Tipografía CSS"></div><div class="css-card-body"><div class="css-icon">T</div><h3>Tamaños</h3><p>Ajusta dimensiones con <code>font-size</code>, <code>width</code>, <code>height</code> en px, em, rem o porcentajes.</p></div></div>
+        <div class="css-card"><div class="css-card-img"><img src="https://www.aulafacil.com/uploads/cursos/350/editor/css-lecc-40_40-3.jpg" alt="Fondos CSS"></div><div class="css-card-body"><div class="css-icon">F</div><h3>Fondos</h3><p>Crea atmósferas con <code>background-image</code>, <code>background-gradient</code> y texturas visuales.</p></div></div>
+        <div class="css-card"><div class="css-card-img"><img src="https://www.apinem.com/wp-content/uploads/2024/05/posicionamiento-css-relativo-ejercicio.png" alt="Grid CSS"></div><div class="css-card-body"><div class="css-icon">G</div><h3>Organizar</h3><p>Distribuye elementos con <code>display: grid</code>, <code>flexbox</code> y <code>position</code> para layouts modernos.</p></div></div>
+        <div class="css-card"><div class="css-card-img"><img src="https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=400&auto=format&fit=crop&q=80" alt="Animaciones CSS"></div><div class="css-card-body"><div class="css-icon">A</div><h3>Animaciones</h3><p>Da vida a la página con <code>@keyframes</code>, <code>transition</code> y <code>animation</code> para efectos fluidos.</p></div></div>
+    </div>
+</section>
+
+<!-- FEATURED -->
+<section class="page-section featured-section">
+    <div class="section-header">
+        <div><p class="section-label">Parte 03 · Temas Destacados</p><h2>Técnicas<br><em>Avanzadas</em></h2></div>
+        <span class="section-number">03</span>
+    </div>
+    <div class="featured-grid">
+        <article class="featured-main">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80" alt="CSS Grid Layout">
+            <div class="featured-main-body"><p class="section-label">CSS Grid</p><h3>Layouts modernos con CSS Grid</h3><p>CSS Grid permite organizar los elementos en filas y columnas simultáneamente, facilitando la creación de layouts complejos, responsivos y estructurados. Con solo unas pocas líneas de código puedes definir una cuadrícula de 12 columnas.</p></div>
+        </article>
+        <article class="featured-small">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&auto=format&fit=crop&q=80" alt="Diseño Responsivo">
+            <div class="featured-small-body"><p class="section-label">Responsivo</p><h3>Diseño que se adapta a todo</h3><p>Las media queries de CSS adaptan el layout a distintos tamaños de pantalla: móvil, tablet y escritorio, con una sola hoja de estilos.</p></div>
+        </article>
+        <article class="featured-small">
+            <img src="https://images.unsplash.com/photo-1616469829167-0bd76a80c913?w=400&auto=format&fit=crop&q=80" alt="Imágenes en HTML">
+            <div class="featured-small-body"><p class="section-label">Multimedia</p><h3>Imágenes y video en HTML5</h3><p>HTML5 permite insertar imágenes con <code style="color:var(--rust);">&lt;img&gt;</code> y videos con <code style="color:var(--rust);">&lt;video&gt;</code> o iframes de YouTube de forma nativa.</p></div>
+        </article>
+    </div>
+</section>
+
+<!-- TOOLS -->
+<section class="tools-section">
+    <div class="tools-inner">
+        <div class="tools-text">
+            <p class="section-label">Parte 04 · Referencia</p>
+            <h2>Propiedades CSS <em>esenciales</em></h2>
+            <p>Estas son las propiedades CSS que todo desarrollador debe conocer para controlar la apariencia visual de sus páginas con precisión y elegancia.</p>
+            <div class="props-list">
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">color</span><span class="prop-desc">Define el color del texto del elemento</span></div>
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">background</span><span class="prop-desc">Establece el fondo: color, imagen o degradado</span></div>
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">margin / padding</span><span class="prop-desc">Espacio exterior e interior del elemento</span></div>
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">border-radius</span><span class="prop-desc">Redondea las esquinas del elemento</span></div>
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">box-shadow</span><span class="prop-desc">Añade sombra alrededor del elemento</span></div>
+                <div class="prop-item"><div class="prop-dot"></div><span class="prop-code">display: grid/flex</span><span class="prop-desc">Activa el modelo de layout moderno</span></div>
+            </div>
+        </div>
+        <div class="resources-box">
+            <p class="section-label">Recursos Recomendados</p>
+            <h3>Referencias y documentación</h3>
+            <a href="https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/" target="_blank" class="resource-link"><div class="resource-icon">🧪</div><div class="resource-info"><span class="resource-name">Tabla Periódica HTML5</span><span class="resource-type">Referencia visual</span></div><span class="resource-arrow">→</span></a>
+            <a href="https://carontestudio.com/blog/listado-de-etiquetas-html/" target="_blank" class="resource-link"><div class="resource-icon">📋</div><div class="resource-info"><span class="resource-name">Listado de Etiquetas HTML</span><span class="resource-type">Documentación</span></div><span class="resource-arrow">→</span></a>
+            <a href="https://keepcoding.io/blog/tipos-de-etiquetas-html/" target="_blank" class="resource-link"><div class="resource-icon">📚</div><div class="resource-info"><span class="resource-name">Tipos de Etiquetas HTML</span><span class="resource-type">Guía práctica</span></div><span class="resource-arrow">→</span></a>
+            <a href="https://carontestudio.com/blog/como-poner-un-video-de-fondo-en-html/" target="_blank" class="resource-link"><div class="resource-icon">🎥</div><div class="resource-info"><span class="resource-name">Video de fondo con CSS</span><span class="resource-type">Tutorial avanzado</span></div><span class="resource-arrow">→</span></a>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section class="media-section">
+    <div class="media-grid">
+        <div class="media-text">
+            <p class="section-label">Parte 05 · Multimedia</p>
+            <h2>Video educativo HTML5</h2>
+            <p>HTML5 permite integrar contenido multimedia directamente en la página. Con la etiqueta <code style="color:var(--gold-light);">&lt;iframe&gt;</code> puedes embeber videos de YouTube para complementar el aprendizaje.</p>
+        </div>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/ZvL9ZS5Mg5A" title="Video HTML5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- CHALLENGES -->
+<section class="challenges-section">
+    <div class="section-header">
+        <div><p class="section-label">Parte 06 · Práctica</p><h2>Retos con<br><em>HTML & CSS</em></h2></div>
+        <span class="section-number">06</span>
+    </div>
+    <div class="challenges-grid">
+        <article class="challenge-card"><div class="challenge-num">01</div><h3>Reto de Layout</h3><p>Construye un diseño completo utilizando CSS Grid y Flexbox para organizar el contenido en múltiples columnas y filas.</p><a href="https://www.youtube.com/watch?v=oLgtucwjVII" target="_blank" class="challenge-link">Ver reto →</a></article>
+        <article class="challenge-card"><div class="challenge-num">02</div><h3>Reto de Estilo</h3><p>Aplica tipografías, colores, sombras y bordes para transformar una página básica en un diseño atractivo y profesional.</p><a href="https://www.youtube.com/watch?v=sRaVhp96jxM" target="_blank" class="challenge-link">Ver reto →</a></article>
+        <article class="challenge-card"><div class="challenge-num">03</div><h3>Tarjetas de Perfil</h3><p>Diseña tarjetas de perfil interactivas con efectos hover, imágenes circulares y animaciones de transición con CSS puro.</p><a href="https://github.com/parthwebdev/Instagram-Posts/tree/main/Cards/01" target="_blank" class="challenge-link">Ver en GitHub →</a></article>
+        <article class="challenge-card"><div class="challenge-num">04</div><h3>Video de Fondo</h3><p>Crea un encabezado hero impactante con un video de fondo usando la etiqueta <code style="color:var(--teal);">&lt;video&gt;</code> y posicionamiento CSS.</p><a href="https://carontestudio.com/blog/como-poner-un-video-de-fondo-en-html/" target="_blank" class="challenge-link">Ver tutorial →</a></article>
+    </div>
+</section>
+
+<!-- PIE DE PÁGINA PRINCIPAL -->
+<footer class="main-footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <!-- Sección de marca del pie de página con título y descripción del proyecto -->
+            <h2>HTML5<span>& CSS3</span></h2>
+            <p>Un Digital Lookbook interactivo que demuestra el uso de HTML5 y CSS3 para crear diseños web modernos con estructura semántica y estilos visuales avanzados.</p>
+        </div>
+        <div class="footer-col">
+            <!-- Columna de temas relacionados con HTML -->
+            <h4>Temas HTML</h4>
+            <ul>
+                <li><a href="#">Títulos y Párrafos</a></li>
+                <li><a href="#">Imágenes y Multimedia</a></li>
+                <li><a href="#">Tablas</a></li>
+                <li><a href="#">Formularios</a></li>
+                <li><a href="#">Enlaces</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <!-- Columna de temas relacionados con CSS -->
+            <h4>Temas CSS</h4>
+            <ul>
+                <li><a href="#">Colores y Tipografía</a></li>
+                <li><a href="#">CSS Grid</a></li>
+                <li><a href="#">Diseño Responsivo</a></li>
+                <li><a href="#">Animaciones</a></li>
+                <li><a href="#">Variables CSS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-info-left" style="text-align: center; flex: 1;">
+            <!-- Información del programa y créditos del autor -->
+            <p>© Programa de formación &#8594; Análisis y Desarrollo de SOFTWARE</p>
+            <p>© Centro para la Industria Petroquímica &#8594; SENA </p>
+            <p>© Aprendiz SENA - FICHA: 3067861</p>
+            <p><strong>Aprendiendo a programar páginas Web</strong></p>
+        </div>
+
+        <div class="footer-author">
+            <!-- Contenedor de la imagen y datos del autor -->
+            <div class="author-avatar">
+                <img src="css/images/author-photo.jpeg" alt="Foto de Leider">
+            </div>
+            <div class="author-info">
+                <span>Leider Díaz Carrillo</span>
+                <a href="https://youtube.com/@mensajesfinales?si=cID6jwKqknLkusU9" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FF0000; display: block; font-size: 0.9em; margin: 4px 0;">
+                    ▶ Suscríbete a mi canal
+                </a>
+                <small>Desarrollado · 28/02/2026</small>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FIN DEL PIE DE PÁGINA -->
+</body>
+</html>
