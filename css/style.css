@@ -15,11 +15,11 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; overflow-x: hidden; }
-body { background: var(--paper); font-family: var(--font-body); color: var(--ink); overflow-x: hidden; }
+body { background: var(--paper); font-family: var(--font-body); color: var(--ink); overflow-x: hidden; word-wrap: break-word; }
 
-/* make all block-level containers respect parent width */
+/* helper: ensure wide elements fill the viewport */
 .container, section, header, footer {
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -97,15 +97,11 @@ body { background: var(--paper); font-family: var(--font-body); color: var(--ink
 .topic-tag { background: rgba(0,0,0,0.15); color: var(--ink); padding: 5px 14px; border-radius: 2px; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; }
 
 /* ─── SECTIONS ─── */
-.page-section { padding: 100px 60px; max-width: 1000px; margin: 0 auto; }
+.page-section { padding: 100px 60px; }
 .section-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 60px; padding-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.1); }
 
-/* ensure all main containers are centered */
-.intro-strip, .tools-section, .featured-section, .media-section, .challenges-section, .resources-box {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
+/* wide containers should span viewport, centering removed */
+/* (optional: keep hero-text center) */
 .hero-text { text-align: center; }
 .section-header h2 { font-family: var(--font-serif); font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; color: var(--ink); }
 .section-header h2 em { color: var(--teal); font-style: italic; }
