@@ -16,7 +16,10 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; overflow-x: hidden; }
 html, body { margin: 0; padding: 0; width: 100%; }
-body { background: var(--paper); font-family: var(--font-body); color: var(--ink); overflow-x: hidden; word-wrap: break-word; }
+body { background: var(--paper); font-family: var(--font-body); color: var(--ink); overflow-x: hidden; word-break: normal; overflow-wrap: break-word; hyphens: auto; }
+
+p, h1, h2, h3, h4, h5, h6, li { hyphens: auto; }
+
 
 /* helper: ensure wide elements fill the viewport */
 .container, section, header, footer {
@@ -270,7 +273,8 @@ img, video, iframe { max-width: 100%; height: auto; }
 .challenge-card:hover::before { transform: scaleX(1); }
 .challenge-num { font-family: var(--font-display); font-size: 3.5rem; color: rgba(0,0,0,0.06); line-height: 1; margin-bottom: 16px; }
 .challenge-card h3 { font-family: var(--font-serif); font-size: 1.3rem; margin-bottom: 12px; color: var(--ink); }
-.challenge-card p { font-size: 0.85rem; color: #666; line-height: 1.65; margin-bottom: 20px; }
+.challenge-card p { font-size: 0.85rem; color: #666; line-height: 1.65; margin-bottom: 20px; word-break: keep-all; }
+
 .challenge-link { display: inline-flex; align-items: center; gap: 8px; color: var(--teal); text-decoration: none; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.06em; transition: gap 0.25s ease; }
 .challenge-link:hover { gap: 14px; color: var(--ink); }
 
@@ -329,13 +333,18 @@ img, video, iframe { max-width: 100%; height: auto; }
     .featured-grid { grid-template-columns: 1fr; }
     .tools-inner { grid-template-columns: 1fr; }
     .media-grid { grid-template-columns: 1fr; }
-    .challenges-grid { grid-template-columns: repeat(2, 1fr); }
+    /* stack challenges to avoid text breakup */
+    .challenges-grid { grid-template-columns: 1fr; }
     .footer-top { grid-template-columns: 1fr; }
     .footer-bottom { flex-direction: column; gap: 20px; text-align: center; }
     .intro-strip { padding: 22px 24px; }
     .main-footer { padding: 60px 24px 30px; }
 }
 
-.btn { background-color:#007bff;color:white;padding:10px 20px;text-decoration:none;border-radius:5px; }
+.btn { background: var(--gold); color: var(--ink); padding:10px 20px; text-decoration:none; border-radius:5px; border:1px solid transparent; transition: all 0.3s ease; }
 
-.btn:hover { background-color:#0056b3; }
+.btn:hover { background: var(--ink); color: var(--gold); border-color: var(--gold); }
+
+/* keep small variation for .btn-sm */
+.btn-sm { font-size: 0.8rem; padding: 8px 16px; margin-top: 10px; }
+
