@@ -97,8 +97,16 @@ body { background: var(--paper); font-family: var(--font-body); color: var(--ink
 .topic-tag { background: rgba(0,0,0,0.15); color: var(--ink); padding: 5px 14px; border-radius: 2px; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.08em; }
 
 /* ─── SECTIONS ─── */
-.page-section { padding: 100px 60px; }
+.page-section { padding: 100px 60px; max-width: 1000px; margin: 0 auto; }
 .section-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 60px; padding-bottom: 20px; border-bottom: 1px solid rgba(0,0,0,0.1); }
+
+/* ensure all main containers are centered */
+.intro-strip, .tools-section, .featured-section, .media-section, .challenges-section, .resources-box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-text { text-align: center; }
 .section-header h2 { font-family: var(--font-serif); font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; color: var(--ink); }
 .section-header h2 em { color: var(--teal); font-style: italic; }
 .section-number { font-family: var(--font-display); font-size: 6rem; color: rgba(0,0,0,0.06); line-height: 1; }
@@ -228,7 +236,7 @@ img, video, iframe { max-width: 100%; height: auto; }
     .hero-text { padding: 50px 30px; }
     .intro-strip { padding: 22px 30px; flex-direction: column; text-align: center; }
     .intro-strip p { margin-bottom: 12px; }
-    .tools-inner { padding: 0 20px; }
+    .tools-inner { padding: 0 20px; justify-items: center; }
     .footer-top, .footer-bottom { flex-direction: column; text-align: center; }
     .footer-col { margin: 20px 0; }
     .css-grid { grid-template-columns: 1fr; }
@@ -236,6 +244,7 @@ img, video, iframe { max-width: 100%; height: auto; }
     .featured-main { min-height: auto; }
     .featured-main-body { padding: 20px; }
     .featured-small img { height: auto; }
+    .page-section, .intro-strip, .tools-section, .featured-section, .media-section, .challenges-section { padding-left: 20px; padding-right: 20px; }
 }
 
 @media (max-width: 480px) {
@@ -328,3 +337,7 @@ img, video, iframe { max-width: 100%; height: auto; }
     .intro-strip { padding: 22px 24px; }
     .main-footer { padding: 60px 24px 30px; }
 }
+
+.btn { background-color:#007bff;color:white;padding:10px 20px;text-decoration:none;border-radius:5px; }
+
+.btn:hover { background-color:#0056b3; }
