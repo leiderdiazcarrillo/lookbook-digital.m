@@ -15,15 +15,15 @@ Se agregaron comentarios detallados en el archivo `index.html` explicando el pro
 
 ## 2. Layout y Grilla Asimétrica
 El diseño rompe la estructura tradicional de bloques mediante:
-- **CSS Grid de 6 columnas**: Un sistema de columnas que permite flexibilidad total.
+- **CSS Grid Layout**: Uso de `grid-template-columns` variables (2, 3 y 5 columnas) para adaptar el contenido de cada sección.
 - **Traslapes (Overlapping)**: Uso de propiedades `grid-column`, `grid-row` y `z-index` para superponer elementos, creando una sensación de profundidad similar a una revista física.
 - **Responsive Design**: Una transición fluida de una grilla compleja a una estructura lineal para dispositivos móviles.
 
 ## 3. Guía de Estilo (Custom Properties)
 Se implementaron variables CSS para una gestión eficiente del diseño:
-- `--primary`: Color base para fondos oscuros (#1a1a1a).
-- `--accent`: Color dorado para destacar elementos clave (#d4af37).
-- **Tipografía**: Emparejamiento de *Playfair Display* (Serif) para títulos y *Montserrat* (Sans-serif) para el cuerpo de texto.
+- `--ink`: Color base oscuro para textos y fondos principales (#0d0d0d).
+- `--gold`: Color de acento dorado para destacar elementos clave (#c9a84c).
+- **Tipografía**: Combinación de *Bebas Neue* (Display), *DM Serif Display* (Títulos) y *DM Sans* (Cuerpo).
 
 ## 4. Comentarios en el Código
 Se han añadido comentarios en español en el archivo `index.html` para explicar cada sección y su propósito:
@@ -34,12 +34,12 @@ Se han añadido comentarios en español en el archivo `index.html` para explicar
 En el archivo `style.css`, se han comentado las reglas CSS para describir su función, como el diseño de la grilla, los colores y las animaciones.
 
 ## 5. Imagen del Autor
-La imagen del autor se encuentra en la carpeta `css/images` con el nombre `author-photo.jpg`. Esta imagen se muestra en el pie de página dentro de un contenedor circular. El código HTML correspondiente es:
+La imagen del autor se encuentra en la carpeta `css/images` con el nombre `author-photo.jpeg`. Esta imagen se muestra en el pie de página dentro de un contenedor con forma ovalada. El código HTML correspondiente es:
 
 ```html
 <!-- Contenedor de la imagen del autor -->
 <div class="author-avatar">
-    <img src="css/images/author-photo.jpg" alt="Foto de Leider">
+    <img src="css/images/author-photo.jpeg" alt="Foto de Leider">
 </div>
 ```
 
