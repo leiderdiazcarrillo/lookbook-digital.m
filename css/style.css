@@ -264,7 +264,6 @@ body { background: var(--paper); font-family: var(--font-body); color: var(--ink
 }
 @media (max-width: 768px) {
     .hero { grid-template-columns: 1fr; }
-    .hero-visual { display: none; }
     .page-section { padding: 60px 24px; }
     .concepts-grid { grid-template-columns: 1fr; }
     .css-grid { grid-template-columns: repeat(2, 1fr); }
