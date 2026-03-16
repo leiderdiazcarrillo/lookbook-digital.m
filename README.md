@@ -7,7 +7,7 @@
 ## 🔗 Enlaces del Proyecto
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repositorio-181717?style=for-the-badge&logo=github)](https://github.com/leiderdiazcarrillo/lookbook-digital.m)
-[![Live](https://img.shields.io/badge/Web-Ver%20Proyecto-007bff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://leiderdiazcarrillo.github.io/lookbook-digital.m/)
+[![Live](https://img.shields.io/badge/Web-Ver%20Proyecto-007bff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://leiderdiazcarrillo.github.io/lookbook-digital.m/login.html#formRegistro)
 
 ---
 
@@ -127,7 +127,7 @@ lookbook-digital/
 <a href="https://github.com/leiderdiazcarrillo/lookbook-digital.m" target="_blank">Mi GitHub</a>
 
 <!-- Enlace con estilo de botón -->
-<a href="https://leiderdiazcarrillo.github.io/lookbook-digital.m/" target="_blank" class="btn">Visitar mi página</a>
+<a href="https://leiderdiazcarrillo.github.io/lookbook-digital.m/login.html#formRegistro" target="_blank" class="btn">Visitar mi página</a>
 ```
 
 ```css
