@@ -6,8 +6,8 @@
 
 ## 🔗 Enlaces del Proyecto
 
-[![GitHub](https://github.com/leiderdiazcarrillo/lookbook-digital.m)
-[![Live](https://img.shields.io/badge/Web-Ver%20Proyecto-007bff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://tusitio.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositorio-181717?style=for-the-badge&logo=github)](https://github.com/leiderdiazcarrillo/lookbook-digital.m)
+[![Live](https://img.shields.io/badge/Web-Ver%20Proyecto-007bff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://leiderdiazcarrillo.github.io/lookbook-digital.m/)
 
 ---
 
@@ -124,10 +124,10 @@ lookbook-digital/
 
 ```html
 <!-- Enlace básico -->
-<a href="https://github.com/tuusuario" target="_blank">Mi GitHub</a>
+<a href="https://github.com/leiderdiazcarrillo/lookbook-digital.m" target="_blank">Mi GitHub</a>
 
 <!-- Enlace con estilo de botón -->
-<a href="https://tusitio.com" target="_blank" class="btn">Visitar mi página</a>
+<a href="https://leiderdiazcarrillo.github.io/lookbook-digital.m/" target="_blank" class="btn">Visitar mi página</a>
 ```
 
 ```css
