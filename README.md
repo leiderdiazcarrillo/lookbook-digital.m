@@ -6,7 +6,7 @@
 
 ## 🔗 Enlaces del Proyecto
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repositorio-181717?style=for-the-badge&logo=github)](https://github.com/tuusuario)
+[![GitHub](https://github.com/leiderdiazcarrillo/lookbook-digital.m)
 [![Live](https://img.shields.io/badge/Web-Ver%20Proyecto-007bff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://tusitio.com)
 
 ---
