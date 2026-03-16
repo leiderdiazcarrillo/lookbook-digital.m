@@ -1,4 +1,23 @@
-# Digital Lookbook: Manifiesto de Diseño 2026
+<a href="https://github.com/tuusuario" target="_blank">Mi GitHub</a>
+<a href="https://tusitio.com" target="_blank">Mi página web</a><a href="https://tusitio.com" target="_blank" class="btn">Visitar mi página</a>.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}.challenges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    gap: 16px;
+}@media (max-width: 480px) {
+    .challenges-grid { grid-template-columns: 1fr !important; }
+    .challenge-card { padding: 24px 16px; }
+    .challenge-num { font-size: 2.5rem; }
+}# Digital Lookbook: Manifiesto de Diseño 2026
 
 Este proyecto es una exploración de las capacidades modernas de **HTML5 Semántico** y **CSS Grid Layout**, enfocado en la creación de una experiencia visual asimétrica y accesible.
 
@@ -53,7 +72,9 @@ El estilo CSS para la imagen asegura que sea redonda y se ajuste al diseño del 
     object-fit: cover; /* Ajusta la imagen dentro del contenedor */
 }
 ```
-
+.prop-item { flex-direction: column; align-items: flex-start; }
+.prop-code, .prop-desc { width: 100%; }.prop-item { flex-direction: column; align-items: flex-start; }
+.prop-code, .prop-desc { width: 100%; }
 ## 6. Repositorio en GitHub
 Este proyecto está disponible en un repositorio de GitHub que incluye:
 - El archivo `index.html` con la estructura semántica y comentarios detallados.
